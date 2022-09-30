@@ -1,8 +1,70 @@
 * {
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+}
+#portfoliopic {
+    width: 320px;
 }
 
-#portfoliopic {
-    width: 367px;
+.main-header,
+.main-nav,
+h2,
+h3,
+p {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+.main-nav {
+    padding-bottom: 10%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+    flex-grow: 1;
+}
+#footerp {
+    font-family: 'Alkalami', serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+.contact {
+    padding-top: 40%;
+    padding-bottom: 20%;
+}
+.contents {
+    padding-top: 20%;
+}
+#ctc {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+@media (min-width:768px) {
+    .main-header {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .description {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #item1 {
+        display: flex;
+        position: 1;
+    }
+    
 }
