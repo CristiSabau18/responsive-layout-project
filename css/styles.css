@@ -20,6 +20,7 @@ h1{
 ul {
     list-style-type: none;
     font-size: 21px;
+    padding: 0;
 }
 a {
     text-decoration: none;
@@ -47,6 +48,9 @@ a {
 }
 .column {
     padding-bottom: 2em;
+}
+.footer-nav {
+    display: none;
 }
 
 @media screen and (min-width:768px) {
@@ -89,15 +93,6 @@ a {
     .navs {
         margin: 0 15px;
         font-size: 24px;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .back-to-top {
-        display: block;
-    }
-    .footer-nav {
-        display: none;
     }
 }
 
